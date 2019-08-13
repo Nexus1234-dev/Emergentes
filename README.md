@@ -69,7 +69,7 @@ Los servicios de Java EE son los de directorio, de despliegue, de transaccionali
 **11) Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y 
 HttpServletResponse, y para cada uno de los métodos muestre un ejemplo**
 
-**HttpServletRequest**    
+**HttpServlet**    
 **Métodos**
 
 El método service() de la clase HttpServlet lanza diferentes peticiones a distintos métodos Java para sistemas de peticiones diferentes. Reconoce los métodos estándar en formato HTTP/1.1 y no es conveniente sobrecargarlo en subclases, a no ser que se necesiten para implementar métodos adicionales.    
